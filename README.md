@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[https://github.com/rekunolya/rsschool-cv/cv]
+[CV help](https://github.com/rekunolya/rsschool-cv/cv)
