@@ -4,8 +4,11 @@
 
 ### CONTACT INFORMATION
 mobile: +375-29-704-67-51
+
 e-mail: rekun.olya@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/olga-rekun-981b95222/
+
 skype: savinka_knopochka
 
 ***************
@@ -45,8 +48,8 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 ***************
 
 ### EXPERIENCE
-1. *[clone "Trello"]* [https://dmitry0403.github.io/coolSoft/]
-2. **[diploma work "Clone 'OZ.by'"]** [https://github.com/rekunolya/react_total_work]
+1. *clone "Trello"* [https://dmitry0403.github.io/coolSoft/]
+2. **diploma work "Clone 'OZ.by'"** [https://github.com/rekunolya/react_total_work]
 
 ***************
 
@@ -64,4 +67,5 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 
 ### LANGUAGE
 English - B1
+
 German - A1
