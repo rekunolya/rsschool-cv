@@ -3,13 +3,10 @@
 ***************
 
 ### CONTACT INFORMATION
-mobile: +375-29-704-67-51
-
-e-mail: rekun.olya@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/olga-rekun-981b95222/
-
-skype: savinka_knopochka
+mobile: +375-29-704-67-51 <br>
+e-mail: rekun.olya@gmail.com <br>
+LinkedIn: https://www.linkedin.com/in/olga-rekun-981b95222/ <br>
+skype: savinka_knopochka 
 
 ***************
 
@@ -66,6 +63,5 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 ***************
 
 ### LANGUAGE
-English - B1
-
-German - A1
+English - B1 <br>
+German - A1 <br>
