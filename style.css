@@ -1,4 +1,167 @@
-.body {
-    margin: 20px auto;
-    color: darkolivegreen;
+@font-face {
+    font-family: Roboto;
+    src: url("./assets/fonts/Roboto-Regular.ttf");
 }
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+  background-color: #F1BA48;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+.info{
+    width: 340px;
+    color: #FFF4F4;
+    text-transform: uppercase;
+    padding-right: 45px;
+    padding-top: 30px;
+}
+.name{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.position {
+    font-size: 18px;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    padding: 10px 45px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #D53C3C;
+    box-sizing: border-box;
+    border-radius: 256px;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+}
+
+.blue{
+    background-color: #23345C;
+    width: 450px;
+}
+
+
+.information {
+    text-transform: uppercase; 
+    background-color: #FFF4F4;
+    font-size: 18px;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.information__white{
+    text-transform: uppercase; 
+    background-color: #D53C3C;
+    font-size: 18px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFF4F4;
+}
+
+.information__yellow{
+    text-transform: uppercase; 
+    background-color: #F1BA48;
+    font-size: 18px;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 20px;
+    margin-right: 125px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFF4F4; 
+}
+
+.list{
+    color: white;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.aboutMySelf{
+    padding: 15px 25px;
+}
+
+.listContact{
+    list-style-type: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.listEducation{
+    list-style-type: '* ';
+    line-height: 1.5;
+}
+
+.listEducation a{
+    text-decoration: none;
+    color: #000;
+}
+
+.experiense{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.place{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.position{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.right{
+    text-align: right;
+}
+
+.projects{
+    margin: 10px 25px;
+}
+
+.code {
+    text-align: start;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #F1BA48;
+    padding: 10px 15px;
+    color: #FFF4F4;
+}
+ .logo{
+     width: 100px;
+     height: inherit;
+ }
+
+ .footer a{
+    text-decoration: none;
+    color: #FFF4F4;
+ }
