@@ -45,8 +45,8 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 ***************
 
 ### EXPERIENCE
-1. [*clone "Trello"*] (https://dmitry0403.github.io/coolSoft/)
-2. [**diploma work "Clone 'OZ.by'"**] (https://github.com/rekunolya/react_total_work)
+1. *clone "Trello"* (https://dmitry0403.github.io/coolSoft/)
+2. **diploma work "Clone 'OZ.by'"** (https://github.com/rekunolya/react_total_work)
 
 ***************
 

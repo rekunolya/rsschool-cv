@@ -16,7 +16,7 @@ body {
   background-color: #F1BA48;
   height: 170px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .info{
     width: 340px;
@@ -70,10 +70,73 @@ body {
     margin-top: 20px;
     margin-right: 25px;
     margin-bottom: 25px;
+    padding-left: 10px;
 }
 
-.listInfo{
+.information__white{
+    text-transform: uppercase; 
+    background-color: #D53C3C;
+    font-size: 18px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFF4F4;
+}
+
+.information__yellow{
+    text-transform: uppercase; 
+    background-color: #F1BA48;
+    font-size: 18px;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 20px;
+    margin-right: 125px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFF4F4; 
+}
+
+.list{
     color: white;
     margin-left: 45px;
     margin-bottom: 30px;
+}
+
+.listEducation{
+    list-style-type: '* ';
+    line-height: 1.5;
+}
+
+.listEducation a{
+    text-decoration: none;
+    color: #000;
+}
+
+.experiense{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.place{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.position{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.right{
+    text-align: right;
+}
+
+.projects{
+    margin: 10px 25px;
+}
+
+.code {
+    text-align: start;
 }
