@@ -3,7 +3,7 @@
 ***************
 
 ### CONTACT INFORMATION
-mobile: +375-29-704-67-51 <br>
+mobile: +48570237221 <br>
 e-mail: rekun.olya@gmail.com <br>
 LinkedIn: https://www.linkedin.com/in/olga-rekun-981b95222/ <br>
 skype: savinka_knopochka 
@@ -14,12 +14,10 @@ skype: savinka_knopochka
 My name is Olga. I was born in Minsk.
 I gradueted BSUIR(Information System and Technology in economics), but I have never worked on my speciality.
 
-
-Now I finished TeachMeSkills on Front-End Developer, and I want to start my career as a Junior.
-
 ***************
 
 ### SKILLS
+* Java
 * HTML, CSS
 * JavaScript
 * TypeScript
@@ -32,14 +30,11 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 ### CODE
 
 ```
-  static getCategories(): Promise<{categories: Category[]}> {
-        return fetch('/api/categories').then(r => {
-            if (r.ok) {
-                return r.json()
-            }
-        })
+    let sum = 0;
+    for(let i = 1; i <= x; i++){
+        sum += 1 / (Math.pow(i, 2)); 
     }
-
+    return sum.toFixed(2);
 ```
 
 ***************
@@ -53,10 +48,8 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 ### EDUCATION
 * **Belarusian State University of Informatics AND Radioelectronics**
   *Master of Economics Science*
-* **MiSoft**
-  *«The basics of programming in the system «1С: Предприятие 8.3» (24 hours)*
-* **MiSoft**
-  *«1С:Предприятие 8» Main objects . Version 8.3 (24 hours)*
+* **EPAM UpSkill**
+  *Java Self-Paced Program (EU)*
 * **Streamline**
   *Express English Course*
 
@@ -64,4 +57,5 @@ Now I finished TeachMeSkills on Front-End Developer, and I want to start my care
 
 ### LANGUAGE
 English - B1 <br>
-German - A1 <br>
+Polish - A1 <br>
+Russian - Native speaker <br>
