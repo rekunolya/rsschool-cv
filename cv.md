@@ -50,6 +50,8 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
   *Master of Economics Science*
 * **EPAM UpSkill**
   *Java Self-Paced Program (EU)*
+* **TeachMeSkills**
+  *Front-End Developer*  
 * **Streamline**
   *Express English Course*
 
