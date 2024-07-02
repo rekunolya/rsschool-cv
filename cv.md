@@ -32,7 +32,7 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
 ```
     let sum = 0;
     for(let i = 1; i <= x; i++){
-        sum += 1 / (Math.pow(i, 2)); 
+        sum += 1 / (Math.pow(i, 2));
     }
     return sum.toFixed(2);
 ```
@@ -51,7 +51,7 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
 * **EPAM UpSkill**
   *Java Self-Paced Program (EU)*
 * **TeachMeSkills**
-  *Front-End Developer*  
+  *Front-End Developer*
 * **Streamline**
   *Express English Course*
 
