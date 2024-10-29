@@ -42,6 +42,7 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
 ### EXPERIENCE
 1. *clone "Trello"* (https://dmitry0403.github.io/coolSoft/)
 2. **diploma work "Clone 'OZ.by'"** (https://github.com/rekunolya/react_total_work)
+3. **RS School Pet-project** (https://rolling-scopes-school.github.io/rekunolya-JSFEPRESCHOOL2024Q2/shelter/)
 
 ***************
 
@@ -50,6 +51,8 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
   *Master of Economics Science*
 * **EPAM UpSkill**
   *Java Self-Paced Program (EU)*
+* **RS School**
+  *FE/Pre-School*
 * **TeachMeSkills**
   *Front-End Developer*
 * **Streamline**
@@ -59,5 +62,5 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
 
 ### LANGUAGE
 English - B1 <br>
-Polish - A1 <br>
+Polish - A2 <br>
 Russian - Native speaker <br>
