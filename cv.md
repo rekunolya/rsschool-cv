@@ -58,6 +58,6 @@ I gradueted BSUIR(Information System and Technology in economics), but I have ne
 ***************
 
 ### LANGUAGE
-English - B1 <br>
-Polish - A1 <br>
+English - A2+/B1 <br>
+Polish - A2 <br>
 Russian - Native speaker <br>
