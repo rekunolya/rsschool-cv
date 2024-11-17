@@ -64,6 +64,20 @@
             </div> 
         </section>
         <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <div>
+            <pre>
+            <code>  
+             static getCategories(): Promise&lt;{categories: Category[]}> {<br>
+                   return fetch('/api/categories').then(r => {<br>
+                       if (r.ok) {<br>
+                           return r.json()<br>
+                       }<br>
+                   })<br>
+               }  
+            </code>
+            </pre>
+            </div>
         </section>
         <section class="section" id="courses">
         </section>
