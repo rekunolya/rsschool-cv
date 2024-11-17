@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+</header>
+    <main class="main-container">
+        <section class="section" id="profile">
+            <div class="title">
+                <h1 class="section-title">Olga Rekun</h1>
+                <div>Junior Front-End Developer</div>
+            </div>
+            <div>
+                <img src="./images/photo.jpg" alt="My photo" class="image">
+            </div>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li> Mobile:<br> +48 570 237 221</li>
+                <li> e-mail:<br> rekun.olya@gmail.com </li>
+                <li> LinkedIn:<br> https://www.linkedin.com/in/olga-rekun-981b95222/</li>
+                <li> Discord:<br> rekunolya </li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <div>My name is Olga. I was born in Minsk. 
+                I gradueted BSUIR(Information System and Technology in economics), but I have never worked on my speciality.
+                I finished TeachMeSkills on Front-End Developer, and I want to start my career as a Junior.</div>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div>
+                <ul>
+                    <li>Java</li>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React 
+                        <ul>
+                            <li>React-redux</li>
+                            <li>React-thunk</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> 
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <div>
+            <pre>
+            <code>  
+             static getCategories(): Promise&lt;{categories: Category[]}> {<br>
+                   return fetch('/api/categories').then(r => {<br>
+                       if (r.ok) {<br>
+                           return r.json()<br>
+                       }<br>
+                   })<br>
+               }  
+            </code>
+            </pre>
+            </div>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul>
+                <li><b>EPAM UpSkills</b><i>Java Sel-Paced Program (EU)</i></li>
+                <li><b>Streamline</b><i> Express English Course</i></li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div>
+                <a href="https://dmitry0403.github.io/coolSoft/">link to course work</a><br>
+                <a href="https://github.com/rekunolya/react_total_work">link to diploma work</a>
+            </div>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><b><a href = "https://www.bsuir.by/">Belarusian State University of Informatics AND Radioelectronics</a></b><br> <i>Master of Economics Science</i></li>
+                <li><b><a href = "https://teachmeskills.by/">TeachMeSkills</a></b> <i>Front-End Developer</i></li>
+            </ul>
+        </section>
+        <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            <div>
+                <div>English - A2+/B1</div>
+                <div>Polish - A2</div>
+                <div>Russian - Native speaker</div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div>
+                    <a href ="https://github.com/rekunolya">RekunOlya</a>
+                </div>
+                <div class="logo">
+                    <a href="https://rs.school/courses/javascript-preschool-ru">
+                        <img src="./images/rss-logo.svg" alt="Logo RSSchool">
+                    </a>
+                </div>
+                <div>2024</div>
+            </div>
+    </footer>
+    
+</body>
+</html>
