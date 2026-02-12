@@ -54,6 +54,12 @@ header {
   }
 }
 /*main*/
+.main-container{
+  padding: 0 45px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #self-intoduction{
   width: 100%;
   display: flex;
@@ -77,6 +83,9 @@ header {
   box-sizing: border-box;
   border-radius: 20px;
   margin: auto;
+}
+pre{
+  margin: 0;
 }
 
 /*footer */

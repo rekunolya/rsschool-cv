@@ -24,7 +24,7 @@
     </div>
   </header>
   <main>
-    <div class="wrapper">
+    <div class="wrapper main-container">
       <section class="section" id="self-intoduction">
         <div class="title">
           <h1 class="section-title">Olga Rekun</h1>
@@ -54,6 +54,22 @@
               <li>Angular</li>
             </ul>
           </div> 
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <div>
+            <pre>
+              <code>  
+                static getCategories(): Promise&lt;{categories: Category[]}> {<br>
+                   return fetch('/api/categories').then(r => {<br>
+                       if (r.ok) {<br>
+                           return r.json()<br>
+                       }<br>
+                   })<br>
+               }  
+              </code>
+            </pre>
+          </div>
         </section>
 
     </div>
