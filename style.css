@@ -17,7 +17,7 @@ body {
   color: #222;
 }
 
-li{
+li {
   margin-left: 2rem;
 }
 
@@ -27,7 +27,8 @@ li{
   padding: 2rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-decoration: underline;
   text-decoration-color: #f07800;
   text-decoration-thickness: 2px;
@@ -43,13 +44,13 @@ a {
   text-decoration: none;
   transition: all 0.3s ease-out;
 
-  &:hover{
+  &:hover {
     color: #000;
   }
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   padding: 2rem;
 }
 
@@ -67,6 +68,8 @@ header {
 .nav-list {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   list-style: none;
   padding: 1.5rem 0;
@@ -101,14 +104,49 @@ header {
   height: 200px;
   border-radius: 15px;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .information {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 1rem;
+}
 
-  gap: 3rem;
+#contacts {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+#skills {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+#languages {
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+
+#self-introduction {
+  grid-column: 2/3;
+  grid-row: 1/1;
+}
+
+#education {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+
+#english {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+
+#projects {
+  grid-column: 2/3;
+  grid-row: 4/4;
 }
 
 #projects {
@@ -132,7 +170,7 @@ header {
   text-align: right;
 }
 
-.project__links{
+.project__links {
   display: flex;
   justify-content: space-between;
 }
@@ -160,54 +198,68 @@ pre {
 
 @media (max-width: 768px) {
   section {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+}
+  #profile {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 
-  #profile { 
-    flex-direction: column-reverse; 
-    text-align: center; 
-  } 
+  .nav-list {
+    gap: 1rem;
+  }
 
-  .nav-list { 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 1rem; 
+  .information {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
-  .information { 
-    display: flex; 
-    flex-direction: column; 
-  } 
-  .information-left, 
-  .information > div { 
-    display: flex; 
-    flex-direction: column; 
+
+  #contacts {
+    order: 1;
   }
-  /* Блоки внутри information */ 
-  #contacts { order: 1; } 
-  #self-introduction { order: 2; }
-  #education { order: 3; } 
-  #skills { order: 4; } 
-  #languages { order: 5; } 
-  #projects { order: 6; } 
-  /* Блок code находится вне .information */ 
-  #code { order: 7; } 
-  /* Чтобы order работал для #code */ 
-  main .wrapper { 
-    display: flex; 
-    flex-direction: column; 
+
+  #self-introduction {
+    order: 2;
+  }
+
+  #education {
+    order: 3;
+  }
+
+  #english {
+    order: 4;
+  }
+
+  #projects {
+    order: 5;
+  }
+
+  #skills {
+    order: 6;
+  }
+
+  #languages {
+    order: 7;
+  }
+  embed {
+    margin-left: -2rem;
   }
 }
 
 
-@media (max-width: 600px) { 
-  html { 
-    font-size: 9px; 
-  } 
-  .wrapper { 
-    padding: 1.5rem; 
-  } 
-  .project__links { 
-    flex-direction: column; 
-    gap: 1rem; 
-  } 
+@media (max-width: 600px) {
+  html {
+    font-size: 9px;
+  }
+
+  .wrapper {
+    padding: 1.5rem;
+  }
+
+  .project__links {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
